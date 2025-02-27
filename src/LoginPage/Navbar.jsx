@@ -7,7 +7,7 @@ function Navbar() {
             <div className={navbarStyle.navbar}>
                 <div className={navbarStyle.logoName}>
                     <img src={cardImage} alt="logo" className={navbarStyle.logo} />
-                    <h3>Login Page</h3>
+                    <h3>Welcome to Login Page</h3>
                 </div>
                 <div className={navbarStyle.tabs}>
                     <ul className={navbarStyle.tab}>

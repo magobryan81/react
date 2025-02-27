@@ -5,10 +5,13 @@ import Card from './Card.jsx';
 import Button from './Button.jsx';
 import Student from './Student.jsx';
 import Navbar from './LoginPage/Navbar.jsx';
+import Main from './LoginPage/Main.jsx';
+
 function App() {
   return(
     <>
     <Navbar/>
+    <Main />
     </>
   );
 }

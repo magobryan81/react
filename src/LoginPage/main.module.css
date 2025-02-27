@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main {
+    background-color: aliceblue;
+    height: 100vh;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 20rem 10rem 20rem;
+}
+
+.loginContainer {
+    width: 25rem;
+    padding: 2rem;
+    border: 1px solid black;
+}
+
+.loginContainer .loginHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.loginContainer .loginInput {
+    border: 1px solid black;
+}
+
+.loginInput div {
+    display: flex;
+    flex-direction: column;
+}
+
+div label {
+    margin-bottom: 0.5rem;
+}
+
+div input {
+    border: none;
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+
+
+
