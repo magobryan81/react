@@ -14,15 +14,13 @@ function Main() {
                 </div>
                 <div className={mainStyle.loginInput}>
                     <div>
-                        <label htmlFor="">Username</label>
-                        <input type="text" />
+                        <input type="text" placeholder='Username' />
                     </div>
                     <div>
-                        <label htmlFor="">Password</label>
-                        <input type="password" />
+                        <input type="password" placeholder='Password' />
                     </div>
                 </div>
-                <button>
+                <button className={mainStyle.button}>
                     Login
                 </button>
             </div>

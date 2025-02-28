@@ -21,7 +21,9 @@ main {
 .loginContainer {
     width: 25rem;
     padding: 2rem;
-    border: 1px solid black;
+    height: 50%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .loginContainer .loginHeader {
@@ -29,24 +31,31 @@ main {
     margin-bottom: 2rem;
 }
 
-.loginContainer .loginInput {
+/* .loginContainer .loginInput {
     border: 1px solid black;
-}
+} */
 
 .loginInput div {
     display: flex;
     flex-direction: column;
 }
 
-div label {
-    margin-bottom: 0.5rem;
+div input {
+    border: 1px gray solid;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
 }
 
-div input {
+.button {
     border: none;
-    padding: 5px;
-    margin-bottom: 2rem;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 4px;
 }
+
+
 
 
 
