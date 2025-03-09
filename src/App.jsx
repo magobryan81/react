@@ -9,13 +9,18 @@
 import List from './List.jsx';
 
 function App() {
+  const fruits = [{id: 1, name: 'apple', calories: 105}, 
+    {id: 2, name: 'orange', calories: 85}, 
+    {id: 3, name: 'banana', calories: 15}, 
+    {id: 4, name: 'durian', calories: 25}];
+    
   return(
     // <>
     // <Navbar/>
     // <Main />
     // </>
     <>
-    <List />
+    <List items = {fruits} category="Fruits"/>
 
     </>
   );
