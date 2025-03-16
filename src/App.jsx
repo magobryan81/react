@@ -6,13 +6,13 @@
 // import Student from './Student.jsx';
 // import Navbar from './LoginPage/Navbar.jsx';
 // import Main from './LoginPage/Main.jsx';
-import List from './List.jsx';
-
+// import List from './List.jsx';
+import ProfilePicture from './profilePicture.jsx';
 function App() {
-  const fruits = [{id: 1, name: 'apple', calories: 105}, 
-    {id: 2, name: 'orange', calories: 85}, 
-    {id: 3, name: 'banana', calories: 15}, 
-    {id: 4, name: 'durian', calories: 25}];
+  // const fruits = [{id: 1, name: 'apple', calories: 105}, 
+  //   {id: 2, name: 'orange', calories: 85}, 
+  //   {id: 3, name: 'banana', calories: 15}, 
+  //   {id: 4, name: 'durian', calories: 25}];
     
   return(
     // <>
@@ -20,7 +20,7 @@ function App() {
     // <Main />
     // </>
     <>
-    <List items = {fruits} category="Fruits"/>
+    <ProfilePicture />
 
     </>
   );
