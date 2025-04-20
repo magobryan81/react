@@ -7,7 +7,8 @@
 // import Navbar from './LoginPage/Navbar.jsx';
 // import Main from './LoginPage/Main.jsx';
 // import List from './List.jsx';
-import ProfilePicture from './profilePicture.jsx';
+// import ProfilePicture from './profilePicture.jsx';
+import Counter from './Counter.jsx';
 function App() {
   // const fruits = [{id: 1, name: 'apple', calories: 105}, 
   //   {id: 2, name: 'orange', calories: 85}, 
@@ -20,7 +21,7 @@ function App() {
     // <Main />
     // </>
     <>
-    <ProfilePicture />
+    <Counter />
 
     </>
   );
