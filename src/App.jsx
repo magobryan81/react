@@ -9,7 +9,9 @@
 // import List from './List.jsx';
 // import ProfilePicture from './profilePicture.jsx';
 // import Counter from './Counter.jsx';
-import OnChange from './OnChange.jsx';
+// import OnChange from './OnChange.jsx';
+// import ColorPicker from './ColorPicker.jsx';
+import UpdaterFunction from './UpdaterFunction.jsx';
 function App() {
   // const fruits = [{id: 1, name: 'apple', calories: 105}, 
   //   {id: 2, name: 'orange', calories: 85}, 
@@ -22,7 +24,7 @@ function App() {
     // <Main />
     // </>
     <>
-    <OnChange />
+    <UpdaterFunction />
 
     </>
   );
