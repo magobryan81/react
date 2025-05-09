@@ -14,6 +14,7 @@
 // import UpdateArray from './UpdateArray.jsx';
 // import UpdateArrayObject from './UpdateArrayObject.jsx';
 import ToDoList from './to-do-list-app/ToDoList.jsx';
+import UseEffect from './UseEffect.jsx';
 function App() {
   // const fruits = [{id: 1, name: 'apple', calories: 105}, 
   //   {id: 2, name: 'orange', calories: 85}, 
@@ -26,7 +27,7 @@ function App() {
     // <Main />
     // </>
     <>
-    <ToDoList />
+    <UseEffect />
 
     </>
   );
