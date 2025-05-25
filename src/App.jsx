@@ -16,6 +16,7 @@
 import ToDoList from './to-do-list-app/ToDoList.jsx';
 import UseEffect from './UseEffect.jsx';
 import DigitalClock from './DigitalClock.jsx';
+import ComponentA from './ComponentA.jsx';
 function App() {
   // const fruits = [{id: 1, name: 'apple', calories: 105}, 
   //   {id: 2, name: 'orange', calories: 85}, 
@@ -28,7 +29,7 @@ function App() {
     // <Main />
     // </>
     <>
-    <DigitalClock />
+    <ComponentA />
 
     </>
   );
