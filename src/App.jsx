@@ -18,6 +18,7 @@ import UseEffect from './UseEffect.jsx';
 import DigitalClock from './DigitalClock.jsx';
 import ComponentA from './ComponentA.jsx';
 import UseRef from './UseRef.jsx';
+import Stopwatch from './Stopwatch.jsx';
 function App() {
   // const fruits = [{id: 1, name: 'apple', calories: 105}, 
   //   {id: 2, name: 'orange', calories: 85}, 
@@ -30,7 +31,7 @@ function App() {
     // <Main />
     // </>
     <>
-    <UseRef />
+    <Stopwatch />
 
     </>
   );
